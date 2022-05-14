@@ -1325,3 +1325,32 @@ DevTools listening on ws://localhost:56279/devtools/browser/9cb9003e-64f6-4d3e-9
 [ERROR osclientcerts_static] ThreadId(8) C_FindObjectsInit: CKR_ARGUMENTS_BAD: ExternalError at security/manager/ssl/osclientcerts/src/backend_macos.rs:921 (-25300)
 [ERROR osclientcerts_static] ThreadId(9) C_FindObjectsInit: CKR_ARGUMENTS_BAD: ExternalError at security/manager/ssl/osclientcerts/src/backend_macos.rs:921 (-25300)
 [ERROR osclientcerts_static] ThreadId(9) C_FindObjectsInit: CKR_ARGUMENTS_BAD: ExternalError at security/manager/ssl/osclientcerts/src/backend_macos.rs:921 (-25300)
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1652488316023	geckodriver	INFO	Listening on 127.0.0.1:63974
+1652488316542	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63975" "-foreground" "-no-remote" "-profile" "/var/folders/hb/cp1k8j5x3dj82qvtzxhwyn280000gn/T/rust_mozprofilelygLBm"
+1652488317534	Marionette	INFO	Marionette enabled
+2022-05-13 20:31:57.583 plugin-container[47714:2453850] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-13 20:31:57.583 plugin-container[47714:2453850] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-13 20:31:57.637 plugin-container[47714:2453850] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-13 20:31:57.637 plugin-container[47714:2453850] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-13 20:31:57.637 plugin-container[47714:2453880] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-13 20:31:57.637 plugin-container[47714:2453880] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-13 20:31:58.282 firefox-bin[47712:2453751] Warning: Expected min height of view: (<NSButton: 0x115df6000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-13 20:31:58.283 firefox-bin[47712:2453751] Warning: Expected min height of view: (<NSButton: 0x118d3c000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-13 20:31:58.283 firefox-bin[47712:2453751] Warning: Expected min height of view: (<NSButton: 0x118d3bc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-13 20:31:58.284 firefox-bin[47712:2453751] Warning: Expected min height of view: (<NSButton: 0x118d3dc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-13 20:31:58.285 firefox-bin[47712:2453751] Warning: Expected min height of view: (<NSButton: 0x118d38000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-13 20:31:58.285 firefox-bin[47712:2453751] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x118d3b800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-13 20:31:58.286 firefox-bin[47712:2453751] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x114cbbc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/hb/cp1k8j5x3dj82qvtzxhwyn280000gn/T/rust_mozprofilelygLBm/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:63975/devtools/browser/b2ccc943-edf7-4e89-92e5-4f9144742102
+1652488319422	Marionette	INFO	Listening on port 63982
+1652488319501	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR osclientcerts_static] ThreadId(5) C_FindObjectsInit: CKR_ARGUMENTS_BAD: ExternalError at security/manager/ssl/osclientcerts/src/backend_macos.rs:921 (-25300)
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
