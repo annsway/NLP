@@ -1409,3 +1409,27 @@ DevTools listening on ws://localhost:58597/devtools/browser/4c50c387-14eb-40db-b
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1652648128538	geckodriver	INFO	Listening on 127.0.0.1:58028
+1652648128753	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58029" "-foreground" "-no-remote" "-profile" "/var/folders/hb/cp1k8j5x3dj82qvtzxhwyn280000gn/T/rust_mozprofileX8jARd"
+1652648129944	Marionette	INFO	Marionette enabled
+2022-05-15 16:55:30.048 plugin-container[5852:3465435] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-15 16:55:30.048 plugin-container[5852:3465435] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-15 16:55:30.109 plugin-container[5852:3465435] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-15 16:55:30.109 plugin-container[5852:3465435] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-15 16:55:30.110 plugin-container[5852:3465440] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-15 16:55:30.110 plugin-container[5852:3465440] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-15 16:55:30.843 firefox-bin[5851:3465308] Warning: Expected min height of view: (<NSButton: 0x11deaa800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-15 16:55:30.843 firefox-bin[5851:3465308] Warning: Expected min height of view: (<NSButton: 0x12dedc800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-15 16:55:30.844 firefox-bin[5851:3465308] Warning: Expected min height of view: (<NSButton: 0x12dedd000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-15 16:55:30.845 firefox-bin[5851:3465308] Warning: Expected min height of view: (<NSButton: 0x12deda000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-15 16:55:30.845 firefox-bin[5851:3465308] Warning: Expected min height of view: (<NSButton: 0x12ded8000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-15 16:55:30.846 firefox-bin[5851:3465308] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12ded7c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-15 16:55:30.846 firefox-bin[5851:3465308] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11d571800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/hb/cp1k8j5x3dj82qvtzxhwyn280000gn/T/rust_mozprofileX8jARd/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:58029/devtools/browser/32d2e479-dcb2-4c6c-b59c-58bd1245d64f
+1652648132102	Marionette	INFO	Listening on port 58034
+1652648132151	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR osclientcerts_static] ThreadId(5) C_FindObjectsInit: CKR_ARGUMENTS_BAD: ExternalError at security/manager/ssl/osclientcerts/src/backend_macos.rs:921 (-25300)
+[ERROR osclientcerts_static] ThreadId(8) C_FindObjectsInit: CKR_ARGUMENTS_BAD: ExternalError at security/manager/ssl/osclientcerts/src/backend_macos.rs:921 (-25300)
