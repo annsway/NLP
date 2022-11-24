@@ -1,6 +1,6 @@
 # NLP
 
-### 1. Run jupyter notebook
+### 1. Run ```jupyter notebook```
 
 ### 2. Run web-scraping-and-data-prep.ipynb
 
