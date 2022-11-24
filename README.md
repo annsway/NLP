@@ -20,12 +20,18 @@ Code and detailed explaination can be found in [NLP-Project.ipynb](https://githu
 
 # Get started with the project
 
-### 0. Clone this repository to your local computer `git clone https://github.com/annsway/NLP.git`
+### 0. Clone this repository to your local computer
 
-### 1. Run `jupyter notebook`
+`git clone https://github.com/annsway/NLP.git`
+
+### 1. Open Jupyter Notebook
+
+`jupyter notebook`
 
 ### 2. Run web-scraping-and-data-prep.ipynb
 
-This step will scrap the 10-K reports from SEC website and the stock price data from Yahoo Finance site.
+This will scrape the 10-K reports from SEC website and the stock price data from Yahoo Finance site.
 
 ### 3. Run NLP-Project.ipynb
+
+This will run the NLP project.
